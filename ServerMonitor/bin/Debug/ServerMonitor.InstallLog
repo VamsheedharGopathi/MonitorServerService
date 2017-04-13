@@ -1,0 +1,263 @@
+﻿Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Service MonitorApplication has been successfully installed.
+Creating EventLog source MonitorApplication in log Application...
+Committing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
+Attempt to stop service MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Warning: The source MonitorApplication is not registered on the local machine.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
+Attempt to stop service MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Warning: The source MonitorApplication is not registered on the local machine.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
+Attempt to stop service MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Warning: The source MonitorApplication is not registered on the local machine.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
+Attempt to stop service MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   r = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   r = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   r = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   r = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Warning: The source MonitorApplication is not registered on the local machine.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
+Attempt to stop service MonitorApplication.
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Warning: The source MonitorApplication is not registered on the local machine.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
+Attempt to stop service MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Warning: The source MonitorApplication is not registered on the local machine.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Creating EventLog source MonitorApplication in log Application...
+Rolling back assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitorApplication.
+Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Service MonitorApplication has been successfully installed.
+Creating EventLog source MonitorApplication in log Application...
+Committing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe
+   logtoconsole = 

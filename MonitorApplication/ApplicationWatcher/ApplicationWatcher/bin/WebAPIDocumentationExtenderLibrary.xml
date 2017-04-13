@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPIDocumentationExtenderLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:WebAPIDocumentationExtenderLibrary.APISampleBuilder">
+            <summary>
+            API Documentation Builder abstract class
+            </summary>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.IFluentRequestBuilder">
+            <summary>
+            Request sample builder interface
+            </summary>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.IFluentBuilder">
+            <summary>
+            API Documentation Builder interface
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.IFluentBuilder.BuildSample(System.String)">
+            <summary>
+            Build sample API Documentation
+            </summary>
+            <param name="input">Input value</param>
+            <returns>IFluentBuilder object</returns>
+        </member>
+        <member name="P:WebAPIDocumentationExtenderLibrary.IFluentBuilder.Sample">
+            <summary>
+            Get Sample
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.IFluentRequestBuilder.BuildSample(System.Type,System.String)">
+            <summary>
+            Build request sample API Documentation
+            </summary>
+            <param name="type">Type value</param>
+            <param name="parameterName">ParameterName value</param>
+            <returns>IFluentRequestBuilder object</returns>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.IFluentResponseBuilder">
+            <summary>
+            Response sample builder interface
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.IFluentResponseBuilder.BuildSample(System.Type)">
+            <summary>
+            Build response sample API Documentation
+            </summary>
+            <param name="type">Type value</param>
+            <returns>IFluentResponseBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.IFluentResponseBuilder.BuildSample(System.Type,System.Type)">
+            <summary>
+            Build response sample API Documentation
+            </summary>
+            <param name="successResponseType">Success response type</param>
+            <param name="errorResponseType">Error response type</param>
+            <returns>IFluentResponseBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.#ctor(System.Reflection.MethodInfo)">
+            <summary>
+            API Documentation Builder abstract class
+            </summary>
+            <param name="generateObject">GenerateObject methodinfo object</param>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSample(System.Object)">
+            <summary>
+            Build sample API Documentation
+            </summary>
+            <param name="instance">Instance value</param>
+            <returns>IFluentBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSample(System.String)">
+            <summary>
+            Build sample API Documentation
+            </summary>
+            <param name="input">Input value</param>
+            <returns>IFluentBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSample(System.Type,System.String)">
+            <summary>
+            Build request sample
+            </summary>
+            <param name="type">Type value</param>
+            <param name="parameterName">ParameterName value</param>
+            <returns>IFluentRequestBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSample(System.Type)">
+            <summary>
+            Build response sample
+            </summary>
+            <param name="type">Type value</param>
+            <returns>IFluentResponseBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSample(System.Type,System.Type)">
+            <summary>
+            Build response sample API Documentation
+            </summary>
+            <param name="successResponseType">Success response type</param>
+            <param name="errorResponseType">Error response type</param>
+            <returns>IFluentResponseBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuilderSample(System.Type,System.String)">
+            <summary>
+            Build sample
+            </summary>
+            <param name="type">Type value</param>
+            <param name="header">Header value</param>
+            <returns>IFluentBuilder object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSampleHeader(System.Type)">
+            <summary>
+            Build sample header for Abstract/Interface
+            </summary>
+            <param name="type">Type value</param>
+            <returns>string value</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSampleHeader(System.Type,System.String,System.String)">
+            <summary>
+            Build sample header for Abstract/Interface
+            </summary>
+            <param name="type">Type value</param>
+            <param name="header">Header value</param>
+            <param name="input">Input value</param>
+            <returns>string value</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.BuildSampleHeader(System.Type,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Build sample header for types that can't produce sample
+            </summary>
+            <param name="type">Type value</param>
+            <param name="header">Header value</param>
+            <param name="typeProperties">Type properties value</param>
+            <returns>string value</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.GetPossibleSerializableType(System.Type)">
+            <summary>
+             Get a possible serializable type
+            </summary>
+            <param name="type">Type value</param>
+            <returns>Type object</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.APISampleBuilder.GenerateSampleObject(System.Type)">
+            <summary>
+            Generate object by using API Documentation ObjectGenerator class through Reflection.
+            </summary>
+            <param name="type">Type value</param>
+            <returns>object value</returns>
+        </member>
+        <member name="P:WebAPIDocumentationExtenderLibrary.APISampleBuilder.Sample">
+            <summary>
+            Get Sample
+            </summary>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.JSONSampleBuilder">
+            <summary>
+            JSON sample builder class
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.JSONSampleBuilder.#ctor(System.Reflection.MethodInfo,System.Net.Http.Formatting.JsonMediaTypeFormatter)">
+            <summary>
+            JSON sample builder class
+            </summary>
+            <param name="generateObject">GenerateObject methodinfo object</param>
+            <param name="jsonFormatter">JsonMediaTypeFormatter object</param>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.JSONSampleBuilder.BuildSample(System.Object)">
+            <summary>
+            BuildSample API Documentation sample
+            </summary>
+            <param name="instance">Instance value</param>
+            <returns>IFluentBuilder object</returns>
+        </member>
+        <member name="P:WebAPIDocumentationExtenderLibrary.JSONSampleBuilder.JsonFormatter">
+            <summary>
+            Json formatter class
+            </summary>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.RegisterAPIHelp">
+            <summary>
+            Register API Help class
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RegisterAPIHelp.RegisterRequestResponseHelp(System.Web.Http.HttpConfiguration,System.Reflection.Assembly)">
+            <summary>
+            Register Response/Request sample API Documentation
+            </summary>
+            <param name="httpConfiguration">HttpConfiguration object</param>
+            <param name="assembly">Assembly object</param>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RegisterAPIHelp.FilterActions(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.Reflection.MethodInfo}},System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo},System.String)">
+            <summary>
+            Filter any documented Request/Response actions from API controller
+            </summary>
+            <param name="controllerActions">ControllerActions value</param>
+            <param name="actions">Actions value</param>
+            <param name="apiControllerName">ApiControllerName value</param>
+            <returns>Filtered Actions</returns>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RegisterAPIHelp.ValidateAssembly(System.Reflection.Assembly,System.Collections.Generic.IEnumerable{System.Type},System.Reflection.MethodInfo@,System.Reflection.MethodInfo@,System.Reflection.MethodInfo@)">
+            <summary>
+            Validate loaded assembly 
+            </summary>
+            <param name="assembly">Assembly value</param>
+            <param name="apiControllerTypes">ApiContollerTypes value</param>
+            <param name="setSampleRequest">SetSampleRequest value</param>
+            <param name="setSampleResponse">SetSampleResponse value</param>
+            <param name="generateObject">GenerateObject value</param>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RegisterAPIHelp.Types">
+            <summary>
+            Array of Types
+            </summary>
+            <returns>array of Types</returns>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.RegisterRequestTypes">
+            <summary>
+            Register Request Type class
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RegisterRequestTypes.Register(System.Web.Http.HttpConfiguration,System.Reflection.MethodInfo,System.String,System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo},System.Reflection.MethodInfo)">
+            <summary>
+            Register Request types 
+            </summary>
+            <param name="httpConfiguration">HttpConfiguration value</param>
+            <param name="setSampleRequest">SampleRequest MethodInfo value</param>
+            <param name="controllerName">ControllerName value</param>
+            <param name="requestActions">RequestActions value</param>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.RegisterResponseTypes">
+            <summary>
+            Register Response Type class
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RegisterResponseTypes.Register(System.Web.Http.HttpConfiguration,System.Reflection.MethodInfo,System.String,System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo},System.Reflection.MethodInfo)">
+            <summary>
+            Register Response types 
+            </summary>
+            <param name="httpConfiguration">HttpConfiguration value</param>
+            <param name="setSampleResponse">SampleRequest MethodInfo value</param>
+            <param name="controllerName">ControllerName value</param>
+            <param name="responseActions">ResponseActions value</param>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RegisterResponseTypes.BuildSample(WebAPIDocumentationExtenderLibrary.IFluentResponseBuilder,System.Attribute,System.Type)">
+            <summary>
+            Build sample
+            </summary>
+            <param name="jsonFormatter">IFluentResponseBuilder value</param>
+            <param name="attribute">Attribute value</param>
+            <param name="defaultType">DefaultType value</param>
+            <param name="xmlSample">Sample string value</param>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.RequestTypeAttribute">
+            <summary>
+            RequestType attribute class used to decorate Web API request objects
+            </summary>
+        </member>
+        <member name="F:WebAPIDocumentationExtenderLibrary.RequestTypeAttribute._parameterName">
+            <summary>
+            ParameterName to represent request parameter name
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.RequestTypeAttribute.#ctor(System.Type,System.String)">
+            <summary>
+            RequestType attribute class used to decorate Web API request objects
+            </summary>
+            <param name="type">Type value that represents the request value</param>
+            <param name="parameterName">ParameterName value that represents the request value</param>
+        </member>
+        <member name="P:WebAPIDocumentationExtenderLibrary.RequestTypeAttribute.Type">
+            <summary>
+            Type used to represent request object
+            </summary>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.ResponseTypeAttribute">
+            <summary>
+            Response attribute class used to decorate Web API response objects
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.ResponseTypeAttribute.#ctor(System.Type)">
+            <summary>
+            ResponseType attribute class used to decorate Web API response objects
+            </summary>
+            <param name="type">Type value that represents the response value</param>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.ResponseTypeAttribute.#ctor(System.Type,System.Type)">
+            <summary>
+            ResponseType attribute class used to decorate Web API response objects
+            </summary>
+            <param name="successResponseType">Type value that represents success response value</param>
+            <param name="errorResponseType">Type value that represents error response value</param>
+        </member>
+        <member name="P:WebAPIDocumentationExtenderLibrary.ResponseTypeAttribute.Type">
+            <summary>
+            Type used to represent response object
+            </summary>
+        </member>
+        <member name="P:WebAPIDocumentationExtenderLibrary.ResponseTypeAttribute.ErrorResponseType">
+            <summary>
+            Type used to represent error response object
+            </summary>
+        </member>
+        <member name="P:WebAPIDocumentationExtenderLibrary.ResponseTypeAttribute.SuccessResponseType">
+            <summary>
+            Type used to represent error response object
+            </summary>
+        </member>
+        <member name="T:WebAPIDocumentationExtenderLibrary.XMLSampleBuilder">
+            <summary>
+            XML Sample builder class
+            </summary>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.XMLSampleBuilder.#ctor(System.Reflection.MethodInfo)">
+            <summary>
+            XML sample builder class
+            </summary>
+            <param name="generateObject">GenerateObject methodinfo object</param>
+        </member>
+        <member name="M:WebAPIDocumentationExtenderLibrary.XMLSampleBuilder.BuildSample(System.Object)">
+            <summary>
+            BuildSample API Documentation sample
+            </summary>
+            <param name="instance">Instance value</param>
+            <returns>IFluentBuilder object</returns>
+        </member>
+    </members>
+</doc>

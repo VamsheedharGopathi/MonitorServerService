@@ -1,0 +1,23 @@
+﻿Installing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.exe
+   logtoconsole = 
+Installing service MonitorApplication...
+Service MonitorApplication has been successfully installed.
+Creating EventLog source MonitorApplication in log Application...
+Committing assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.InstallLog
+   assemblypath = C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ServerMonitor.exe
+Removing EventLog source MonitorApplication.
+Service MonitorApplication is being removed from the system...
+Service MonitorApplication was successfully removed from the system.
