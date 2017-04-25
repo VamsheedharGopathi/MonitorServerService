@@ -39,7 +39,7 @@
             // 
             // MonitorApplicationInstaller
             // 
-            this.MonitorApplicationInstaller.ServiceName = "MonitorApplication";
+            this.MonitorApplicationInstaller.ServiceName = "ServerMonitorApplication";
             // 
             // ProjectInstaller
             // 

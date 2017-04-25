@@ -1,6 +1,3 @@
-C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.csprojResolveAssemblyReference.cache
-C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.exe
-C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.pdb
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe.config
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.exe.manifest
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ServerMonitor.application
@@ -58,7 +55,10 @@ C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ko\System.Spatial.resources.dl
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\ru\System.Spatial.resources.dll
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Debug\zh-Hant\System.Spatial.resources.dll
-C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.exe.manifest
-C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.application
+C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.csprojResolveAssemblyReference.cache
 C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.ProjectInstaller.resources
 C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.csproj.GenerateResource.Cache
+C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.exe.manifest
+C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.application
+C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.exe
+C:\MyFolder\ServerMonitor\ServerMonitor\obj\Debug\ServerMonitor.pdb

@@ -6,10 +6,10 @@ namespace MonitorStorage.Models
 {
     public class Queues : Base
     {
-        public Storage<Queues> _queueStorage;
+        public IStorage<Queues> _queueStorage ;
         public Queues() : base("")
         { }
-        public Queues(string projectName, Storage<Queues> storage) : base(projectName)
+        public Queues(string projectName, IStorage<Queues> storage) : base(projectName)
         {
             _queueStorage = storage;
             _queueStorage.CreateTable(this);
@@ -61,6 +61,20 @@ namespace MonitorStorage.Models
         public async Task<IEnumerable<Queues>> ReadQueues(string query)
         {
             return  await _queueStorage.ReadEntity(this, query) as IEnumerable<Queues>;
+        }
+
+        public IEnumerable<Queues> SynReadQueues(string query)
+        {
+            return _queueStorage.SynReadEntity(this, query) as IEnumerable<Queues>;
+        }
+
+        public void SyncAddQueues()
+        {
+            _queueStorage.SynAddEntity(this);
+        }
+        public void SyncUpdateQueues()
+        {
+            _queueStorage.SynUpdateEntity(this);
         }
     }
 }

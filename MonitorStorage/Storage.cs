@@ -8,6 +8,7 @@ using Microsoft.WindowsAzure.Storage.Table;
 using System.Threading;
 using System.Threading.Tasks;
 using MonitorStorage.Models;
+using System.Configuration;
 
 namespace MonitorStorage
 {
@@ -15,6 +16,8 @@ namespace MonitorStorage
     {
         CloudTableClient _tableClient;
         CloudTable _table;
+
+        private int Slice { get { return ConfigurationManager.AppSettings["Slice"] != null ? Convert.ToInt16(ConfigurationManager.AppSettings["Slice"].ToString()) : 100; } }
         public Storage(CloudStorageAccount cloudStorageAccount)
         {
             _tableClient = cloudStorageAccount.CreateCloudTableClient();
@@ -28,12 +31,12 @@ namespace MonitorStorage
         public async Task<IList<TableResult>> AddEntity(List<k> entity)
         {
             IList<TableResult> result = null;
-            try
-            {
-                int slice = entity.Count % 100 == 0 ? entity.Count / 100 : (entity.Count / 100) + 1;
+            //try
+            //{
+                int slice = entity.Count % Slice == 0 ? entity.Count / Slice : (entity.Count / Slice) + 1;
                 for (int i = 0; i < slice; i++)
                 {
-                    IEnumerable<k> slicedData = entity.Skip(i*100).Take((i + 1) * 100);
+                    IEnumerable<k> slicedData = entity.Skip(i* Slice).Take((i + 1) * Slice);
                     _table = _tableClient.GetTableReference(entity[0].GetType().Name);
                     TableBatchOperation batchOperation = new TableBatchOperation();
                     slicedData.ToList().ForEach(e =>
@@ -42,10 +45,10 @@ namespace MonitorStorage
                     });
                     result = await _table.ExecuteBatchAsync(batchOperation).ConfigureAwait(false);
                 }
-            }
-            catch (Exception ex)
-            {
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //}
             return result;
         }
 
@@ -69,21 +72,45 @@ namespace MonitorStorage
             return result;
         }
 
+        public  IEnumerable<k> SynReadEntity(k entity, string query)
+        {
+            Type typeArgument = Type.GetType(entity.GetType().AssemblyQualifiedName);
+            Type genericClass = typeof(TableQuery<>);
+            Type constructedClass = genericClass.MakeGenericType(typeArgument);
+            dynamic created = Activator.CreateInstance(constructedClass);
+            var filter = created.Where(query);
+            IEnumerable<k> result =  _tableClient.GetTableReference(entity.GetType().Name).ExecuteQuerySegmented(filter, null);
+            return result;
+        }
+
+        public void SynAddEntity(k entity)
+        {
+            CloudTable cTable = _tableClient.GetTableReference(entity.GetType().Name);
+            TableOperation insertOperation = TableOperation.Insert(entity);
+            cTable.Execute(insertOperation);
+        }
+
         public async Task<IList<TableResult>> UpdateEntity(k entity)
         {
             IList<TableResult> tableResult = null;
-            try
-            {
+            //try
+            //{
                 TableBatchOperation tbOpertion = new TableBatchOperation();
                 CloudTable cTable = _tableClient.GetTableReference(entity.GetType().Name);
                 tbOpertion.Replace(entity);
                 tableResult = await cTable.ExecuteBatchAsync(tbOpertion).ConfigureAwait(false);
-            }
-            catch (Exception ex)
-            {
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //}
             return tableResult;
         }
 
+        public TableResult SynUpdateEntity(k entity)
+        {
+            CloudTable cTable = _tableClient.GetTableReference(entity.GetType().Name);
+            TableOperation updateOperation = TableOperation.Replace(entity);
+            return cTable.Execute(updateOperation);
+        }
     }
 }

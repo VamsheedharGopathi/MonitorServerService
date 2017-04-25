@@ -90,5 +90,19 @@ namespace MonitorStorage.Models
                 return null;
             }
         }
+        public IEnumerable<ApplicationLogs> SyncReadApplicationLog(string query)
+        {
+            return _applicationLogsStorage.SynReadEntity(this, query) as IEnumerable<ApplicationLogs>;
+        }
+
+        public void SyncAddApplicationLog()
+        {
+            _applicationLogsStorage.SynAddEntity(this);
+        }
+
+        public void SyncUpdateApplicationLog()
+        {
+            _applicationLogsStorage.SynUpdateEntity(this);
+        }
     }
 }

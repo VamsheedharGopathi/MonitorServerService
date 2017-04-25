@@ -12,5 +12,9 @@ namespace MonitorStorage
         Task<IList<TableResult>> UpdateEntity(T entity);
         Task<IList<TableResult>> DeleteEntity(T entity);
         Task<IEnumerable<T>> ReadEntity(T entity, string query);
+        IEnumerable<T> SynReadEntity(T entity, string query);
+        void SynAddEntity(T entity);
+        TableResult SynUpdateEntity(T entity);
+
     }
 }

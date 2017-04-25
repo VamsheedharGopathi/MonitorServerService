@@ -63,5 +63,19 @@ namespace MonitorStorage.Models
         {
             return await _eventStorage.ReadEntity(this, query) as IEnumerable<EventLogs>;
         }
+
+        public IEnumerable<EventLogs> SyncReadLogs(string query)
+        {
+            return _eventStorage.SynReadEntity(this, query) as IEnumerable<EventLogs>;
+        }
+
+        public void SyncAddLogs()
+        {
+            _eventStorage.SynAddEntity(this);
+        }
+        public void SyncUpdateLogs()
+        {
+            _eventStorage.SynUpdateEntity(this);
+        }
     }
 }

@@ -67,5 +67,19 @@ namespace MonitorStorage.Models
         {
             return await _eventLogLevelStorage.ReadEntity(this, query) as IEnumerable<EventLogLevel>;
         }
+
+        public IEnumerable<EventLogLevel> SyncReadLogLevels(string query)
+        {
+            return _eventLogLevelStorage.SynReadEntity(this, query) as IEnumerable<EventLogLevel>;
+        }
+
+        public void SyncAddLogLevels()
+        {
+            _eventLogLevelStorage.SynAddEntity(this);
+        }
+        public void SyncUpdateLogLevels()
+        {
+            _eventLogLevelStorage.SynUpdateEntity(this);
+        }
     }
 }

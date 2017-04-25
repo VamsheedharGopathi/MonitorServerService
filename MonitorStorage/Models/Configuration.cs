@@ -42,5 +42,20 @@ namespace MonitorStorage.Models
         {
             return await _configurationStorage.ReadEntity(this, query) as IEnumerable<Configurations>;
         }
+
+        public IEnumerable<Configurations> SyncReadConfigurations(string query)
+        {
+            return _configurationStorage.SynReadEntity(this, query) as IEnumerable<Configurations>;
+        }
+
+        public void SyncAddConfigurations()
+        {
+            _configurationStorage.SynAddEntity(this);
+        }
+        public void SyncUpdateConfigurations()
+        {
+            _configurationStorage.SynUpdateEntity(this);
+        }
+
     }
 }

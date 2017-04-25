@@ -56,9 +56,9 @@ C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\ru\System.Spatial.resources.
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\zh-Hans\System.Spatial.resources.dll
 C:\MyFolder\ServerMonitor\ServerMonitor\bin\Release\zh-Hant\System.Spatial.resources.dll
 C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.csprojResolveAssemblyReference.cache
+C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.ProjectInstaller.resources
+C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.csproj.GenerateResource.Cache
 C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.exe.manifest
 C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.application
 C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.exe
 C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.pdb
-C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.ProjectInstaller.resources
-C:\MyFolder\ServerMonitor\ServerMonitor\obj\Release\ServerMonitor.csproj.GenerateResource.Cache

@@ -77,5 +77,20 @@ namespace MonitorStorage.Models
         {
             return await _applicationLogsStorage.ReadEntity(this, query) as IEnumerable<ApplicationLogMessages>;
         }
+        public IEnumerable<ApplicationLogMessages> SyncReadApplicationLogMessages(string query)
+        {
+            return _applicationLogsStorage.SynReadEntity(this, query) as IEnumerable<ApplicationLogMessages>;
+        }
+
+        public  void SyncAddApplicationLogMessage()
+        {
+            _applicationLogsStorage.SynAddEntity(this);
+        }
+
+        public void SyncUpdateApplicationLogMessage()
+        {
+            _applicationLogsStorage.SynUpdateEntity(this);
+        }
+
     }
 }
